@@ -12,7 +12,25 @@ app.get('/', function(request, response, next){
 });
 
 app.get('/photos', function(request, response, next){
-	response.render('photos');
+	response.render('photos', {
+		photos: [{
+			'title': 'photo one',
+			'src': 'http://www.brasil-turismo.com/imagens/bandeiras/bandeira-dobrasil.gif',
+			'link': ''
+		}, {
+			'title': 'photo two',
+			'src': 'http://www.brasil-turismo.com/imagens/bandeiras/bandeira-dobrasil.gif',
+			'link': ''
+		}, {
+			'title': 'photo three',
+			'src': 'http://www.brasil-turismo.com/imagens/bandeiras/bandeira-dobrasil.gif',
+			'link': ''
+		}, {
+			'title': 'photo four',
+			'src': 'http://www.brasil-turismo.com/imagens/bandeiras/bandeira-dobrasil.gif',
+			'link': ''
+		}]
+	});
 });
 
 app.listen(3000,function(request, response, next){
