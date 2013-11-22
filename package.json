@@ -1,0 +1,26 @@
+{
+  "name": "feecbr-app",
+  "version": "0.0.1",
+  "description": "feecbr-app\r ==========",
+  "main": "'",
+  "dependencies": {
+    "express": "~3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermefarias/feecbr-app.git"
+  },
+  "keywords": [
+    "feecbr",
+    "nodejs"
+  ],
+  "author": "Guilherme Farias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guilhermefarias/feecbr-app/issues"
+  }
+}
