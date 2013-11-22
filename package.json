@@ -1,11 +1,21 @@
 {
   "name": "feecbr-app",
   "version": "0.0.1",
-  "description": "feecbr-app\r ==========",
-  "main": "'",
+  "description": "workshop app demo",
+  "main": "app.js",
   "dependencies": {
     "express": "~3.4.4",
-    "express3-handlebars": "~0.5.0"
+    "express3-handlebars": "~0.5.0",
+    "yui": "~3.14.0-rc-1",
+    "express-yui": "~1.0.0",
+    "express-view": "0.0.1-rc3",
+    "locator": "~0.3.7",
+    "locator-handlebars": "~0.3.0",
+    "locator-yui": "~0.1.0",
+    "express-annotations": "0.0.2",
+    "express-state": "~1.0.2",
+    "express-map": "0.0.3",
+    "feecbr-lib": "0.0.4"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,15 +23,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/guilhermefarias/feecbr-app.git"
+    "url": "git://github.com/caridy/feecbr-app.git"
   },
   "keywords": [
     "feecbr",
-    "nodejs"
+    "nodejs",
+    "workshop",
+    "training"
   ],
-  "author": "Guilherme Farias",
+  "author": "Caridy Patino <caridy@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guilhermefarias/feecbr-app/issues"
+    "url": "https://github.com/caridy/feecbr-app/issues"
   }
 }

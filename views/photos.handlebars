@@ -1,6 +1,6 @@
-<h1>testando fotos!</h1>
+<p>These are {{count}} images:</p>
 
 {{#photos}}
-	<h2>{{title}}</h2>
-	<p><a href="{{link}}"><img src="{{src}}" alt=""></a></p>
+    <h2>{{title}} ({{from}})</h2>
+    <p><a href="{{link}}"><img width="400" src="{{src}}"/></a></p>
 {{/photos}}
